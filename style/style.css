@@ -88,8 +88,9 @@
     max-width: 1240px;
     margin: 0 auto;
     margin-top: 110px;
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
+    border-radius: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-bottom: 100px;
 }
 .development-section-box{
     padding: 90px 90px;
@@ -218,3 +219,59 @@
     cursor: pointer;
 }
 /* skill section style end */
+/* target-skill-container style start */
+.target-skill-container{
+    display: flex;
+    justify-content: center;
+}
+.target-skill{
+    max-width: 1240px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 80px;
+    margin-top: 110px;
+}
+
+.target-skill >h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-top: 30px;
+}
+.target-skill > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.target-skill-item{
+    display: flex;
+    padding: 40px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 30px 60px;
+    border-radius: 50px;
+}
+.target-skill-text{
+    margin-left: 30px;
+}
+.target-skill-item h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.target-skill-item p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+.target-skill-item a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* target-skill-container style end */
