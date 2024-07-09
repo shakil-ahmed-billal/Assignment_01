@@ -14,9 +14,8 @@
     opacity: 0.8;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
-
-
 /* share style section end */
 /* navbar style start */
 .nav-section{
@@ -30,6 +29,45 @@
     font-weight: 800;
     padding-top: 13px;
 }
-
-
 /* navbar style end */
+/* banner section style start */
+.banner{
+    max-width: 1440px;
+    height: 652px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 3px dotted rgba(108, 108, 108, 0.327);
+    border-bottom: 3px dotted rgba(108, 108, 108, 0.327);
+}
+.banner-box{
+    width: 998px;
+    height: 582px;
+}
+.banner-box >h1{
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    margin: 32px 0px 24px 0px;
+}
+.banner-box > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.banner-btn{
+    background: rgb(13, 19, 33);
+    padding: 21px 24px 21px 24px;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+/* banner section style start */
