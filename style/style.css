@@ -16,6 +16,18 @@
     font-weight: 600;
     cursor: pointer;
 }
+.color1{
+    border-radius: 16px;
+    background: rgba(254, 67, 20, 0.156);
+}
+.color2{
+    border-radius: 16px; 
+    background: rgba(0, 77, 232, 0.171);
+}
+.color3{
+    border-radius: 16px;
+    background: rgba(255, 221, 0, 0.294);
+}
 /* share style section end */
 /* navbar style start */
 .nav-section{
@@ -131,14 +143,17 @@
 }
 .inspiration-section-box{
     max-width: 1140px;
-    border: 1px solid red;
     text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 30px;
+    padding-bottom: 30px;
 }
 .inspiration-section-box > h1{
     color: rgb(13, 19, 33);
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 25px;
+    margin-top: 40px;
 }
 .inspiration-section-box > p{
     color: rgb(13, 19, 33);
@@ -147,3 +162,59 @@
     margin-bottom: 50px;
 }
 /* inspriration section style end */
+/* skill section style start */
+.skill-container{
+    display: flex;
+    justify-content: center;
+}
+.skill-section{
+    max-width: 1240px;
+    margin-top: 150px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 50px;
+}
+.skill-section >h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.skill-section > P{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.skill-item-box{
+    display: flex;
+
+}
+.skill-item{
+    max-width: 380px;
+    padding: 50px;
+    margin: 50px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.skill-item > h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin: 10px 0;
+}  
+.skill-item > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+.skill-item > a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* skill section style end */
