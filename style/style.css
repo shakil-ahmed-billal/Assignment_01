@@ -32,8 +32,8 @@
 /* navbar style end */
 /* banner section style start */
 .banner{
-    max-width: 1440px;
-    height: 652px;
+    max-width: 1920px;
+    max-height: 950px;
     background-image: url(../assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,8 +45,8 @@
     border-bottom: 3px dotted rgba(108, 108, 108, 0.327);
 }
 .banner-box{
-    width: 998px;
-    height: 582px;
+    max-width: 998px;
+    height: 600px;
 }
 .banner-box >h1{
     color: rgb(13, 19, 33);
@@ -71,3 +71,55 @@
     cursor: pointer;
 }
 /* banner section style start */
+/* development section style start */
+.development-section{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 110px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.development-section-box{
+    padding: 90px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.development-section-box > h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.development-section-box > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 48px;
+    text-align: center;
+}
+.development-section-item-box{
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+.development-item{
+    padding: 45px;
+}
+.development-item > h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.development-item > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+/* development section style end */
