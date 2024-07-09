@@ -275,3 +275,44 @@
     font-weight: 700;
 }
 /* target-skill-container style end */
+/* contact section design start  */
+.contact{
+    max-width: 1140px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:64px 48px ;
+    margin: 0 auto;
+    margin-top: 81px;
+    border-radius: 30px;
+    text-align: center;
+}
+.contact > h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.contact > p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+.contact > .textarea{
+    padding: 15px 20px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+#submit-btn{
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: none;
+}
+
+/* contact section design end */
