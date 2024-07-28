@@ -339,3 +339,190 @@
 
 
 /* social media section design end */
+/* mobile view responsive section style start */
+@media screen  and (max-width:576px) {
+    .btn{
+        padding: 10px 5px;
+        font-size: 17px;
+    }
+    nav{
+        width: 100%;
+
+    }
+    .nav-section{
+        margin: 0px;
+        margin-top: 25px;
+        /* margin: 10px 50px; */
+        /* justify-content: space-between; */
+        /* padding: 10px 20px; */
+    }
+    .nav-section>h1{
+        font-size: 1.1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-bottom: 12px;
+    }
+    .nav-section>a>button{
+        margin-right: 15px;
+    }
+    /* bannar section style start */
+    .banner{
+        margin-top: 20px;
+    }
+    .banner-box>h1{
+        font-size: 1.5rem;
+        margin: 10px 0px;
+    }
+    .banner-box>p{
+        font-size: 0.8rem;
+    }
+    .banner-btn{
+        font-size: 1rem;
+        padding: 20px 15px;
+    }
+    /* bannar section style end */
+    /*development section  */
+    .development-section{
+        margin:60px 20px ;
+    }
+    .development-section-box{
+        padding: 0px;
+        margin: 0px ;
+    }
+    .development-section-box>h1{
+        font-size: 1.6rem;
+        margin: 20px 50px;
+        text-align: center;
+    }
+    .development-section-box>p{
+        margin: 0px 20px;
+        font-size: 0.9rem;
+        margin-bottom: 40px;
+    }
+    .development-section-item-box{
+        width: 85%;
+        flex-direction: column;
+    }
+    .development-item{
+        padding: 0px;
+        padding: 20px 10px 20px 20px;
+    }
+    .development-item>h2{
+        font-size: 1.1rem;
+    }
+    .development-item>p{
+        font-size: 0.8rem;
+        margin-bottom: 15px;
+    }
+    .development-item>a>.btn{
+        font-size: 0.7rem;
+        padding: 10px 20px;
+    }
+    /* inspiration section style  */
+    .inspiration-section{
+        width: 90%;
+    }
+    .inspiration-section-box{
+        padding: 0px;
+    }
+    .inspiration-section-box>h1{
+        font-size: 1.5rem;
+        margin: 30px 0;
+    }
+    .inspiration-section-box>p{
+        font-size: 0.9rem;
+    }
+    .inspiration-section-box>iframe{
+        width: 90%;
+    }
+    /*  skill item box start*/
+    .skill-section{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .skill-section>h1{
+        font-size: 1.6rem;
+        margin: 30px 40px;
+    }
+    .skill-section>p{
+        font-size: 0.9rem;
+        padding: 0 20px;
+    }
+    .skill-item-box{
+        flex-direction: column;
+        padding-bottom: 20px;
+        align-items: center;
+        padding: 20px;
+    }
+    .skill-item{
+        margin: 0;
+        padding: 0;
+        width: 70%;
+        text-align: center;
+        margin-bottom: 30px;
+        padding: 20px 0;
+    }
+    .skill-item>p{
+        font-size: 0.8rem;
+    }
+    /*  my next target skill section*/
+    .target-skill-container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .target-skill{
+        margin-top: 50px;
+    }
+    .target-skill>h1{
+        font-size: 1.6rem;
+        margin: 40px 50px 20px;
+    }
+    .target-skill>p{
+        font-size: 0.9rem;
+        padding: 20px;
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+    .target-skill-item{
+        margin: 0;
+        padding: 0px;
+        flex-direction: column;
+        text-align: center;
+        margin: 30px;
+        padding: 10px;
+
+    }
+    .target-skill-text{
+        margin: 0;
+    }
+    .target-skill-text>p{
+        font-size: 0.8rem;
+    }
+    /* footer section style */
+    .contact{
+        padding: 0;
+        padding: 20px 20px;
+        border-radius: 0;
+    }
+    .contact>.textarea{
+        width: 70%;
+    }
+    #submit-btn{
+        margin-top: 15px;
+    }
+    .social-media-section{
+        flex-direction:column-reverse;
+        padding: 0px;
+        margin: 0;
+        text-align: center;
+        padding: 0px 20px 50px;
+        margin-top: 50px;
+
+    }
+    .social-media-section>h2{
+        font-size: 0.9rem;
+    }
+}
+/* mobile view responsive section style end */
